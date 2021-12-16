@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('studycelery/alivecheck', include('alivecheck.urls')),
     path('studycelery/celerytest', include('celerytest.urls')),
+    path('studycelery/pikatest', include('pikatest.urls')),
 ]
